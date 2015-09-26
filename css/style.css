@@ -5,3 +5,12 @@ body {
 div {
 	border: 1px solid Chocolate;
 }
+
+/*.nav-bar {
+	display: inline-block;
+}*/ 
+
+#nav > li {
+	display: inline-block;
+	padding-right: 2em;
+}
