@@ -44,11 +44,10 @@ div {
 	display: inline-block;
 	margin-left: 15px;
 }
-a:link, 
-a:visited {
-	text-decoration: none;
-	color: black;
-}
-a:hover {
+.top-nagivation .links li:hover {
 	cursor: pointer;
+	color: #333333;
+}
+a:link, a:visited {
+	text-decoration: none;
 }
