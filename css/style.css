@@ -1,8 +1,6 @@
 html {
 	/* This property helps fix the box resizing */
 	box-sizing: border-box;
-	/* This should help make the font a bit easier on the eyes */
-	-webkit-font-smoothing: antialiasing;
 }
 *, *:before, *:after {
 	box-sizing: inherit;
@@ -23,7 +21,17 @@ div {
 	margin: 0 auto;
 	padding: 0 15px;
 }
-.top-navigation .links > .active {
+.top-navigation .links {
+	margin-top: 25px;
+	float: right;
+		/* Font Declarations */
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	/* This should help make the font a bit easier on the eyes */
+	-webkit-font-smoothing: antialiasing;
+}
+.top-navigation .links .active {
 	color: #4c5058;
 	font-weight: 500;
 }
@@ -31,15 +39,10 @@ div {
 	margin-top: 16px;
 	float: left;
 }
-.links > li {
+.top-navigation .links li {
 	/* Layout */
 	display: inline-block;
-	margin-top: 10px;
 	margin-left: 15px;
-	/* Font Declarations */
-	font-size: 16px;
-	color: #838994;
-	letter-spacing: 0.03em;
 }
 a:link, 
 a:visited {
