@@ -7,21 +7,19 @@ div {
 	border: 1px solid Chocolate;
 }
 
-.nav-bar {
-	display: inline-block;
+.top-navigation {
+	color: #fff;
 } 
 
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
 .logo {
-	margin-left: auto;
-}
-
-#nav {
-	margin-right: auto;
-}
-
-#nav > li {
-	display: inline-block;
-	padding-right: 2em;
+	margin-top: 16px;
+	margin-left: 14px;
 }
 
 a:link, 
