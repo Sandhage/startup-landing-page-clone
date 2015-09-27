@@ -56,7 +56,7 @@ a:link, a:visited {
 /* masthead */
 .masthead {
 	width: 100%;
-	background-image: url("C:/Users/Kyle/Documents/thinkful/'Unit 1'/startup-landing-page-clone/images/first-background.jpg");
+	background-image: url("../images/first-background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
