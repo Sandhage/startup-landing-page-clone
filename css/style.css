@@ -20,6 +20,7 @@ div {
 
 .logo {
 	margin-top: 16px;
+	float: left;
 }
 
 .links > li {
