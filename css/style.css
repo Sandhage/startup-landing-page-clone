@@ -1,0 +1,68 @@
+/* global formatting stuff */
+html {
+	/* This property helps fix the box resizing */
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	background-color: LightGray;
+	font-family: 'Roboto', sans-serif;
+}
+div {
+	border: 1px solid Chocolate;
+}
+a:link, a:visited {
+	text-decoration: none;
+}
+/* nav bar */
+.top-navigation {
+	color: #fff;
+} 
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.top-navigation .links {
+	margin-top: 25px;
+	float: right;
+		/* Font Declarations */
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	/* This should help make the font a bit easier on the eyes */
+	-webkit-font-smoothing: antialiasing;
+}
+.top-navigation .links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+.logo {
+	margin-top: 16px;
+	float: left;
+}
+.top-navigation .links li {
+	/* Layout */
+	display: inline-block;
+	margin-left: 15px;
+}
+.top-nagivation .links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+/* masthead */
+.introduction {
+	background-image: url("../images/first-background.jpg");
+	background-position: 0 bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	text-align: center;
+}
+.introduction > h1,
+.introduction > h3 {
+	color: white;
+}
