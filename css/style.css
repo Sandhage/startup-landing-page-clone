@@ -55,9 +55,12 @@ a:link, a:visited {
 }
 /* masthead */
 .masthead {
+	/* layout */
 	width: 100%;
-	background-image: url("/images/first-background.jpg");
+	background-image: url("../images/first-background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	/* font declarations */
 	text-align: center;
+	color: white;
 }
