@@ -98,16 +98,25 @@ a:active {
 .big-button:hover {
 	cursor: pointer;
 }
-.icons {
+.cases {
 	text-align: center;
 }
-.icons .content h2,
-.icons .content h3 {
+.cases h2, .cases h3 {
 	font-weight: 400;
 }
-.icons .content li {
-	width: 33.3%;
-	list-style: none;
+.cases .devices {
+	width: 33.3333333%;
 	display: inline-block;
 	float: left;
+	/* styles to assist with debugging */
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
 }
+/*.device-wrap {
+	display: -webkit-box; 	 
+	display: -moz-box; 		 
+	display: -ms-flexbox; 	 
+	display: -webkit-flex;	 
+	display: flex;			 
+}*/
