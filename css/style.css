@@ -20,6 +20,7 @@ a:link, a:visited {
 a:active {
 	color: #4c5058;
 }
+
 /* nav bar */
 .top-navigation {
 	color: #fff;
@@ -59,6 +60,7 @@ a:active {
 	cursor: pointer;
 	color: #333333;
 }
+
 /* masthead */
 .introduction {
 	background-image: url("../images/first-background.jpg");
