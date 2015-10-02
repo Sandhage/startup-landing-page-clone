@@ -24,6 +24,11 @@ a:active {
 /* nav bar */
 .top-navigation {
 	color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	background-color: white;
+	border-bottom: 1px solid LightGray;
 } 
 .top-navigation > .content,
 .introduction > .content {
