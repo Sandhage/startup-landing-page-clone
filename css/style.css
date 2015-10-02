@@ -36,7 +36,7 @@ a:active {
 .top-navigation .links {
 	margin-top: 25px;
 	float: right;
-		/* Font Declarations */
+	/* Font Declarations */
 	font-size: 1.05em;
 	color: #838994;
 	letter-spacing: 0.02em;
@@ -100,25 +100,31 @@ a:active {
 .big-button:hover {
 	cursor: pointer;
 }
+
+/* icons */
+.device-wrap {
+	/* declare element as flex container */
+	display: -webkit-box; 	 
+	display: -moz-box; 		 
+	display: -ms-flexbox; 	 
+	display: -webkit-flex;	 
+	display: flex;
+	 /* layout */
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.cases .devices {
+	width: 33.3333333%;
+	/* styles to assist with debugging */
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 127px;
+}
 .cases {
 	text-align: center;
 }
 .cases h2, .cases h3 {
 	font-weight: 400;
 }
-.cases .devices {
-	width: 33.3333333%;
-	display: inline-block;
-	float: left;
-	/* styles to assist with debugging */
-	border: 1px solid black;
-	box-sizing: border-box;
-	height: 4em;
-}
-/*.device-wrap {
-	display: -webkit-box; 	 
-	display: -moz-box; 		 
-	display: -ms-flexbox; 	 
-	display: -webkit-flex;	 
-	display: flex;			 
-}*/
