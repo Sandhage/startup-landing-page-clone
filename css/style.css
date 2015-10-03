@@ -135,11 +135,11 @@ a:active {
 }
 
 /* footer */
-.social-media {
+.social {
 	margin-top: 12.7em;
 	text-align: center;
 }
-.social-media .fav-icons li {
+.social .icons li {
 	display: inline-block;
 	width: 40px;
 	height: 40px;
