@@ -7,7 +7,7 @@ html {
 	box-sizing: inherit;
 }
 body {
-	background-color: LightGray;
+	background-color: White;
 	font-family: 'Roboto', sans-serif;
 }
 div {
@@ -120,8 +120,12 @@ a:active {
 	justify-content: center;
 	align-items: center;
 }
+.cases .content {
+	margin-top: 7.875rem;
+}
 .cases .devices {
-	width: 33.3333333%;
+	width: 14em;
+	margin: 0 4.5rem 0 4.5rem;
 	/* styles to assist with debugging */
 	border: 1px solid black;
 	box-sizing: border-box;
@@ -131,6 +135,7 @@ a:active {
 	text-align: center;
 }
 .cases h2, .cases h3 {
+	margin: 1.625rem 0 3.125rem;
 	font-weight: 400;
 }
 
@@ -139,9 +144,17 @@ a:active {
 	margin-top: 12.7em;
 	text-align: center;
 }
+.social .icons {
+	padding-left: 0;
+}
 .social .icons li {
 	display: inline-block;
 	width: 40px;
 	height: 40px;
 	border: 1px solid black;
+	border-radius: 20px;
 }
+.social i {
+	padding-top: 10px;
+}
+.social
