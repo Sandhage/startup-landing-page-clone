@@ -122,10 +122,12 @@ a:active {
 }
 .cases .content {
 	margin-top: 7.875rem;
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .cases .devices {
-	width: 14em;
-	margin: 0 4.5rem 0 4.5rem;
+	width: 33.3333333%;
 	/* styles to assist with debugging */
 	border: 1px solid black;
 	box-sizing: border-box;
@@ -144,6 +146,11 @@ a:active {
 	margin-top: 12.7em;
 	text-align: center;
 }
+.social .content {
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
 .social .icons {
 	padding-left: 0;
 }
@@ -157,4 +164,3 @@ a:active {
 .social i {
 	padding-top: 10px;
 }
-.social
