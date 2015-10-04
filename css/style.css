@@ -10,15 +10,12 @@ body {
 	background-color: White;
 	font-family: 'Roboto', sans-serif;
 }
-div {
+/*div {
 	border: 1px solid Chocolate;
-}
+}*/
 a:link, a:visited {
 	text-decoration: none;
 	color: #838994;
-}
-a:active {
-	color: #4c5058;
 }
 
 /* nav bar */
@@ -32,7 +29,8 @@ a:active {
 } 
 .top-navigation > .content,
 .introduction > .content {
-	width: 970px;
+	width: 60%;
+	min-width: 970px;
 	height: 70px;
 	margin: 0 auto;
 	padding: 0 1.25em;
@@ -48,7 +46,7 @@ a:active {
 	/* This should help make the font a bit easier on the eyes */
 	-webkit-font-smoothing: antialiasing;
 }
-.top-navigation .links > #active {
+.top-navigation .links .active {
 	color: #4c5058;
 	font-weight: 500;
 }
@@ -120,6 +118,11 @@ a:active {
 	justify-content: center;
 	align-items: center;
 }
+.cases {
+	text-align: center;
+/*	padding-bottom: 5rem;*/
+	height: 25em;
+}
 .cases .content {
 	margin-top: 7.875rem;
 	max-width: 60%;
@@ -129,38 +132,74 @@ a:active {
 .cases .devices {
 	width: 33.3333333%;
 	/* styles to assist with debugging */
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 	box-sizing: border-box;
 	height: 127px;
 }
-.cases {
-	text-align: center;
+.cases h2 {
+	font-size: 2.75em;
+	font-weight: 300;
+}
+.cases h3 {
+	font-weight: 400;
+	font-size: 1.5em;
 }
 .cases h2, .cases h3 {
 	margin: 1.625rem 0 3.125rem;
-	font-weight: 400;
 }
 
 /* footer */
 .social {
-	margin-top: 12.7em;
+/*	margin-top: 12.7em;*/
 	text-align: center;
+	padding-bottom: 8em;
+}
+.social hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .social .content {
 	max-width: 60%;
 	margin-left: auto;
 	margin-right: auto;
 }
+.social h5 {
+	font-weight: 400;
+	font-size: 1em;
+	margin: 0;
+}
 .social .icons {
 	padding-left: 0;
+	margin: 0;
 }
 .social .icons li {
 	display: inline-block;
 	width: 40px;
 	height: 40px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	border-radius: 20px;
+	margin: 20px 5px 20px 5px;
+}
+.social .icons:hover { 
+	cursor: pointer;
 }
 .social i {
 	padding-top: 10px;
+}
+.social .twitter {
+	color: #55acee;
+}
+.social .facebook {
+	color: #4c66a4;
+}
+.social .instagram {
+	color: #3f729b;
+}
+.social .content p {
+	margin-top: 0;
+	font-size: 0.9em;
+	color: #838994;
 }
